@@ -7,13 +7,33 @@
 	<title>Flames</title>
 	<link rel="stylesheet" href="styles.css">
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		if (Number(screen.width) < 450) {
+			document.write("<style>	#header{font-size: 4rem;}	.text-box{height: 3rem;width: 30rem;} .submit_button{height: 5rem;width: 10rem; }	#footer{ font-size: 20px;}</style>");
+		}
+	</script>
 </head>
 
 <body>
-	<div id="main-content">
+
+	<div id="main-content" class="main_background">
+		<div id="header">
+			<p class="heading">Flames</p>
+		</div>
 		<div id="first-container" class="text-box-container">
-			<input type="text" id="first-name" class="text-box" value="" autofocus required/> <br />
-			<input type="text" id="second-name" class="text-box" value="" required/>
+			<form onsubmit="flameup(); return false;" method="post" autocomplete="off">
+				<input type="text" id="first-name" class="text-box" value="" autofocus placeholder="Your Name" required /> <br />
+				<input type="text" id="second-name" class="text-box" value="" placeholder="Dream Partner Name" required /> <br />
+				<input type="submit" class="submit_button" value="Flame Up" />
+			</form>
+		</div>
+		<div id="result-container" class="result-container">
+			<p id="flames_result" class="result_text"></p>
+		</div>
+		<div id="footer">
+			<p>Developed by CrazyAsh | For suggestions/complaints, reach out to <a
+					href="mailto:crazyash@live.in?subject=Investment Calculator Suggestion/Complaint">crazyash@live.in</a>
+			</p>
 		</div>
 	</div>
 </body>
