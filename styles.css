@@ -35,7 +35,7 @@ body {
 	height: 30px;
 	margin: 10px;
 	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: cursive, Tahoma, Geneva, Verdana, sans-serif;
 	border-radius: 30px;
 	text-align: center;
 	/* text-transform: uppercase; */
@@ -43,10 +43,24 @@ body {
 	border: 2px solid #d49623;
 }
 
+.submit_button {
+	background-color: #d8970c; /* Green */
+	border: none;
+	color: white;
+	padding: 8px 30px;
+	text-align: center;
+	font-size: 1rem;
+	/* text-decoration: none;
+	display: inline-block; */
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
 .result-container{
 	color: #d49623;
 	font-size: 30px;
 	font-family: cursive;
+	font-weight: bold;
 	text-align: center;
 }
 
