@@ -29,13 +29,14 @@ body {
 }
 
 .text-box{
-	color: gray;
+	color: #d8970c;
 	padding: 5px;
 	width: 250px;
 	height: 30px;
 	margin: 10px;
 	font-size: 16px;
-	font-family: cursive, Tahoma, Geneva, Verdana, sans-serif;
+	font-family: cursive;
+	font-weight: bold;
 	border-radius: 30px;
 	text-align: center;
 	/* text-transform: uppercase; */
@@ -46,13 +47,16 @@ body {
 .submit_button {
 	background-color: #d8970c; /* Green */
 	border: none;
+	border-radius: 50%;
 	color: white;
 	padding: 8px 30px;
 	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
 	font-size: 1rem;
 	/* text-decoration: none;
 	display: inline-block; */
-	margin: 4px 2px;
+	margin: 2%;
 	cursor: pointer;
   }
 
