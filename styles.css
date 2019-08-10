@@ -8,13 +8,14 @@ body {
 	margin: 0;
 }
 
-#header{	
+#header, #header a{	
 	text-align: center;
 	color: white;
-	background-color: #d8970c;
+	background-color: #4CAF50;
 	font-family: "Times New Roman";
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: bolder;
+	text-decoration: none;
 }
 
 .heading{
@@ -29,7 +30,7 @@ body {
 }
 
 .text-box{
-	color: #d8970c;
+	color: gray;
 	padding: 5px;
 	width: 250px;
 	height: 30px;
@@ -41,27 +42,23 @@ body {
 	text-align: center;
 	/* text-transform: uppercase; */
 	outline: none;
-	border: 2px solid #d49623;
+	border: 2px solid #4CAF50;
 }
 
 .submit_button {
-	background-color: #d8970c; /* Green */
+	background-color: #4CAF50; /* Green */
 	border: none;
-	border-radius: 50%;
 	color: white;
 	padding: 8px 30px;
 	text-align: center;
-	font-family: cursive;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 1rem;
-	/* text-decoration: none;
-	display: inline-block; */
-	margin: 2%;
+	margin: 1.5rem;
 	cursor: pointer;
   }
 
 .result-container{
-	color: #d49623;
+	color: #d44c23;
 	font-size: 30px;
 	font-family: cursive;
 	font-weight: bold;
@@ -69,7 +66,7 @@ body {
 }
 
 #footer{
-	background-color: #d8970c;
+	background-color: #4CAF50;
 	color: white;
 	text-align: center;  
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
